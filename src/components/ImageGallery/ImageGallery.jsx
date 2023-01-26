@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { ImageGalleryItem } from '../ImageGalleryItem/ImageGalleryItem';
-import api from '/Projects/github/goit-react-hw-03-image-finder/src/services/api';
+import api from '../api';
 
 const Status = {
   IDLE: 'idle',
