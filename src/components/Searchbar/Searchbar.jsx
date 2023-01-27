@@ -5,7 +5,6 @@ import { ImSearch } from 'react-icons/im';
 class Searchbar extends React.Component {
   state = {
     searchText: '',
-    images: [],
   };
 
   handleNameChange = event => {
@@ -16,7 +15,7 @@ class Searchbar extends React.Component {
     event.preventDefault();
 
     if (this.state.searchText.trim() === '') {
-      alert.error('Введіть щось в поле пошуку');
+      console.log('Введіть щось в поле пошуку');
       return;
     }
 
